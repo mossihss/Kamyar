@@ -32,7 +32,8 @@ def signup_view(request):
                 'uid': urlsafe_base64_encode(force_bytes(user.pk)),
                 'token': default_token_generator.make_token(user),
             })
-            send_mail(subject, message, 'hoseiniiiiiimohsen@gmail.com', [user.email])
+            send_mail(subject, message, DEFAULT_FROM_EMAIL, [user.email])
+
 
             return render(request, 'accounts/check_email.html')
     else:

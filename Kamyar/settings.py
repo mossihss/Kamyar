@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-za*j$_)6n&bixzv5x=_)-=^+howplwls%r1l1peg(=n_b!afw4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kamyar-backend.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -134,7 +134,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'hoseiniiiiiimohsen@gmail.com'
 EMAIL_HOST_PASSWORD = 'cxgo ihsh ceas brmo'
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+DEFAULT_FROM_EMAIL = 'Kamyar Team <noreply@kamyar.ir>'
 ALLOWED_HOSTS = ['Kamyar1.onrender.com', 'localhost', '127.0.0.1']
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
