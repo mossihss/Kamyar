@@ -140,7 +140,6 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'hoseiniiiiiimohsen@gmail.com'
 EMAIL_HOST_PASSWORD = 'cxgo ihsh ceas brmo'
 DEFAULT_FROM_EMAIL = 'Kamyar Team <noreply@kamyar.ir>'
-ALLOWED_HOSTS = ['Kamyar1.onrender.com', 'localhost', '127.0.0.1']
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
