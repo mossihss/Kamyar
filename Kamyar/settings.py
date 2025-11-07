@@ -27,7 +27,12 @@ SECRET_KEY = 'django-insecure-za*j$_)6n&bixzv5x=_)-=^+howplwls%r1l1peg(=n_b!afw4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'kamyar-backend.onrender.com',
+    '127.0.0.1',
+    'localhost'
+]
+
 
 
 # Application definition
