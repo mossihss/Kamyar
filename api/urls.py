@@ -1,12 +1,8 @@
-from rest_framework.response import Response
-from rest_framework.decorators import api_view
 from django.urls import path
-
-@api_view(['GET'])
-def hello(request):
-    return Response({"message": "API is working 🚀"})
+from . import views
 
 urlpatterns = [
-    path('', hello),
+    path('', views.hello, name='hello'),
+    path('signup/', views.api_signup, name='api_signup'),
+    path('login/', views.api_login, name='api_login'),
 ]
-
